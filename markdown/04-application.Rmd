@@ -1,0 +1,19 @@
+# Applications
+
+## Another Section
+Some _significant_ applications are demonstrated in this chapter.
+
+
+## Example one
+```{r echo=FALSE}
+library(knitr)
+kable(mtcars[1,5, ],caption = "A knitr kable")
+```
+## Example two
+```{r echo=FALSE}
+library(DT)
+datatable(iris)
+```
+
+
+[go to Methods section](#methods)
